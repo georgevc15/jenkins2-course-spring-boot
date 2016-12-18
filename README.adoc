@@ -202,14 +202,12 @@ more. If you want to switch off the built in features, or extend or replace them
 makes that really easy as well.
 
 
-
 === spring-boot-loader
 Spring Boot Loader provides the secret sauce that allows you to build a single jar file
 that can be launched using `java -jar`. Generally you will not need to use
 `spring-boot-loader` directly, but instead work with the
 link:spring-boot-tools/spring-boot-gradle-plugin[Gradle] or
 link:spring-boot-tools/spring-boot-maven-plugin[Maven] plugin.
-
 
 
 == Samples
@@ -219,7 +217,6 @@ link:spring-boot-cli/samples[spring-boot-cli/samples]. To run the CLI samples ty
 
 Java samples are available in link:spring-boot-samples[spring-boot-samples] and should
 be built with maven and run by invoking `java -jar target/<sample>.jar`.
-
 
 
 == Guides
@@ -234,7 +231,6 @@ Boot step-by-step:
   can be configured.
 * http://spring.io/guides/gs/convert-jar-to-war/[Converting a Spring Boot JAR Application
   to a WAR] shows you how to run applications in a web server as a WAR file.
-
 
 
 == License
